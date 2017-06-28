@@ -15,8 +15,9 @@ cd src
 #DO_NOT_FETCH=1
 
 if [ -z "$DO_NOT_FETCH" ]; then
-  BRANCH=android-5.0.0_r7
+  #BRANCH=android-5.0.0_r7
   #BRANCH=android-4.4.4_r2
+  BRANCH=android-4.4.2_r2.0.1
   #BRANCH=android-4.3_r3
 
   git clone https://android.googlesource.com/platform/system/core
@@ -62,6 +63,7 @@ cd recovery/applypatch
 gcc -I ../../core/include -I .. -I../../bzip2 \
     -o applypatch \
     main.c applypatch.c bsdiff.c freecache.c imgpatch.c utils.c bspatch.c \
+    ../minelf/Retouch.c \
     ../../core/libmincrypt/libmincrypt.a \
     ../../zlib/src/libz.a \
     ../../bzip2/libbz.a $LIB_MTDUTILS

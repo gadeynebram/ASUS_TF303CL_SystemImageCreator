@@ -1,7 +1,7 @@
-ZenFoneSystemImageCreator
+ASUS_TF303CL_SystemImageCreator
 =========================
 
-Create system.img for ZenFone
+Create system.img for ASUS TF303CL
 
 ### How to use
 
@@ -16,7 +16,7 @@ Create system.img for ZenFone
   - `applypatch` will be in `bin` directory
 
 3. run `scripts/build.sh`
-  - Fetch ROM file of ZenFone 5 (1.17.40.16, WW version) to `work` directory
+  - Fetch ROM file of TF303CL (11.4.1.34, WW version) to `work` directory
   - Extract ROM file and get system directory
   - Inject root package
   - Put whatever your want in `work/system` when pausing

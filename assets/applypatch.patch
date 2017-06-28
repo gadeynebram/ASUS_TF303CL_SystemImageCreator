@@ -159,3 +159,15 @@ index 33c4487..38cbbd8 100644
                      const Value* patch,
                      SinkFn sink, void* token, SHA_CTX* ctx,
                      const Value* bonus_data) {
+
+diff --git a/recovery/minelf/Retouch.h b/recovery/minelf/Retouch.h
+--- a/recovery/minelf/Retouch.h
++++ b/recovery/minelf/Retouch.h
+@@ -19,6 +19,7 @@
+ 
+ #include <stdbool.h>
+ #include <sys/types.h>
++#include <stdint.h>
+ 
+ typedef struct {
+   char tag[8];        /* "RETOUCH ", not zero-terminated */

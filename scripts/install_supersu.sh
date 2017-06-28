@@ -10,6 +10,8 @@ cp system/xbin/su system/bin/.ext/.su
 cp system/xbin/su system/xbin/sugote
 cp system/xbin/su system/xbin/daemonsu
 
+cp system/bin/app_process system/bin/app_process32 # Added to bypass errors, maybe not needed at all!
+
 rm system/bin/app_process
 ln -s /system/xbin/daemonsu system/bin/app_process
 

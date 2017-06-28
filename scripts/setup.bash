@@ -1,9 +1,17 @@
+# EeePAD TF303CL K014
+VERSION=K014-WW-11.4.1.34
+LINK_PERM_SETUP_FILE=link_and_set_perm_k014
+ROM_URL=http://dlcdnet.asus.com/pub/ASUS/EeePAD/TF303CL/UL-K014-WW-11.4.1.34-user.zip
+SYSTEM_SIZE=2147483648
+FILE_CONTEXT=file_contexts_k014
+#OTA_URL=
+
 # ZenFone 2 Z00A
-VERSION=Z00A_WW_2.20.40.198
-LINK_PERM_SETUP_FILE=link_and_set_perm_z00a
-ROM_URL=http://dlcdnet.asus.com/pub/ASUS/ZenFone/ZE551ML/UL-Z00A-WW-2.20.40.198-user.zip
-SYSTEM_SIZE=2415919104
-FILE_CONTEXT=file_contexts_z00a
+#VERSION=Z00A_WW_2.20.40.198
+#LINK_PERM_SETUP_FILE=link_and_set_perm_z00a
+#ROM_URL=http://dlcdnet.asus.com/pub/ASUS/ZenFone/ZE551ML/UL-Z00A-WW-2.20.40.198-user.zip
+#SYSTEM_SIZE=2415919104
+#FILE_CONTEXT=file_contexts_z00a
 
 # ZenFone 2 Z008
 #VERSION=Z008_WW_2.20.40.156
