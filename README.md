@@ -1,7 +1,7 @@
 ASUS_TF303CL_SystemImageCreator (Add root package)
 =========================
 
-Create system.img for ASUS TF303CL
+Create system.img for ASUS TF303CL and add root package
 
 ### How to use
 
