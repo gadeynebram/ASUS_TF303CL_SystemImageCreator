@@ -106,6 +106,7 @@ source scripts/setup.bash
 
 BIN_DIR=$(pwd)/bin/$(uname)
 
+mkdir -p work
 cd work
 
 BASEDIR=$(pwd)
