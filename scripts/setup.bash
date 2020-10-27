@@ -1,7 +1,7 @@
 # EeePAD TF303CL K014
 VERSION=K014-WW-11.4.1.34
 LINK_PERM_SETUP_FILE=link_and_set_perm_k014
-ROM_URL=http://dlcdnet.asus.com/pub/ASUS/EeePAD/TF303CL/UL-K014-WW-11.4.1.34-user.zip
+ROM_URL=https://dlcdnets.asus.com/pub/ASUS/EeePAD/TF303CL/UL-K014-WW-11.4.1.34-user.zip
 SYSTEM_SIZE=2147483648
 FILE_CONTEXT=file_contexts_k014
 #OTA_URL=
